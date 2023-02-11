@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/font/stylesheet.css" />
+    <link rel="stylesheet" href="/font/Poppins/stylesheet.css" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <title>Plunder</title>
+  </head>
+  <body>
+    <div class="">
+      <!-- All in one -->
+      <div id="popstart">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-8 mx-auto">
+            <form>
+              <div class="">
+                <div class="text-center">
+                  <img class="w-50" src="./Assets/plug.svg" alt="" />
+                </div>
+
+                <div
+                  class="d-flex mt-4"
+                  style="
+                    background: #1d1f25 !important;
+                    border-radius: 10px !important;
+                    color: #ffffff !important;
+                  "
+                >
+                  <img
+                    class="icon ms-2"
+                    style="max-width: 2rem"
+                    src="./Assets/key.svg"
+                    alt=""
+                  />
+                  <input
+                    type="email"
+                    placeholder="xxxx-xxxx-xxxx-xxxx"
+                    class="d-inline form-control py-2 px-3"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                  />
+                </div>
+              </div>
+              <div class="text-center mt-3 mx-auto pt-2">
+                <div class="gradient">
+                  <button
+                    type="button"
+                    class="btn btn-primary primarybtngradient"
+                  >
+                    Login
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- <div id="nav" class="px-3 d-flex justify-content-evenly align-items-baseline py-3">
+          <div class="d-flex  px-3 ">
+
+            <a class="d-block active  rarityshadow"  href="">ETH</a>
+            <a class="d-block " href="">SOL</a>
+            <a class="d-block " href=""><img class="w-75" src="./Assets//Settings.svg" alt=""></a>
+            <a class="d-block " href=""><img class="w-75" src="./Assets/Thunder-move.svg" alt=""></a>
+          </div>
+          <div>
+            <a class="d-block " href=""><img class="w-75" src="./Assets//Sign-out.svg" alt=""></a>
+          </div>
+        </div> -->
+
+        <!-- Ethereum-Minter -->
+        <!-- <div id="Ethereum-Minter px-3 mx-auto ">
+          <form class="pt-5  row justify-content-center mx-auto ">
+
+            <h1 class=" col-8 pt-4 my-3">Ethereum Minter</h1>
+            <div class="mb-2 col-8 ">
+              <label for="exampleInputEmail1" class="form-label">Contact Address</label>
+              <input type="email" placeholder="Address" class="form-control py-3" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-2 col-8 ">
+              <label for="exampleInputEmail1" class="form-label">Trasaction Data</label>
+              <input type="email" placeholder="Data" class="form-control py-3" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-2 col-8 ">
+              <label for="exampleInputEmail1" class="form-label">Payable Ethereum</label>
+              <input type="email" placeholder="Amount" class="form-control py-3" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+          <div class="text-center mt-3 mx-auto pt-2">
+            <button type="button" class="btn btn-primary primarybtn   ">Mint</button>
+          </div>
+        </form>
+        <div class="">
+          <img style="width: 15rem; margin-top: 16rem" class="img-fluid ps-4" src="./Assets/Thunder-move-small.svg" alt="">
+        </div>
+      </div>  -->
+
+        <!-- solana-Minter -->
+        <!-- <div id="Ethereum-Minter px-3 mx-auto ">
+          <form class="pt-5  row justify-content-center mx-auto ">
+
+            <h1 class=" col-8 pt-4 my-3">Solana Minter</h1>
+            <div class="mb-2 col-8 ">
+              <label for="exampleInputEmail1" class="form-label">Candy Machine ID</label>
+              <input type="email" placeholder="ID" class="form-control py-3" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-2 col-8 ">
+              <label for="exampleInputEmail1" class="form-label">Pass Phrase</label>
+              <input type="email" placeholder="Phrase" class="form-control py-3" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-2 col-8 ">
+              <label for="exampleInputEmail1" class="form-label">Payable Solana</label>
+              <input type="email" placeholder="Amount" class="form-control py-3" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+          <div class="text-center mt-3 mx-auto pt-2">
+            <button type="button" class="btn btn-primary primarybtn   ">Mint</button>
+          </div>
+        </form>
+        <div class="">
+          <img style="width: 15rem; margin-top: 16rem" class="img-fluid ps-4" src="./Assets/Thunder-move-small.svg" alt="">
+        </div>
+      </div>  -->
+
+        <!-- Gas Presets -->
+        <!-- <div id="Ethereum-Minter px-3 mx-auto ">
+        <form class="pt-5  row justify-content-center mx-auto ">
+
+          <h1 class=" col-8 pt-4 my-3">Gas Presets</h1>
+          <div class="mb-2 col-8 ">
+            <label for="exampleInputEmail1" class="form-label">Gas Price</label>
+            <input type="email" placeholder="Price" class="form-control py-3" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+        <div class="text-center mt-3 mx-auto pt-2">
+          <button type="button" class="btn btn-primary primarybtn   ">Save</button>
+        </div>
+      </form>
+      <div class="">
+        <img style="width: 15rem; margin-top: 31rem" class="img-fluid ps-4" src="./Assets/Thunder-move-small.svg" alt="">
+      </div>
+    </div>  -->
+
+        <!-- setting -->
+        <!-- <div id="Ethereum-Minter px-3 mx-auto ">
+  <form class="pt-5  row justify-content-center mx-auto ">
+
+    <h1 class=" col-8 pt-4 my-3" >Settings</h1>
+    <div class="mb-2 col-8 ">
+      <label for="exampleInputEmail1" class="form-label">Private Key Ethereum</label>
+      <input type="email" placeholder="Key" class="form-control py-3" id="exampleInputEmail1" aria-describedby="emailHelp">
+    </div>
+    <div class="mb-2 col-8 ">
+      <label for="exampleInputEmail1" class="form-label">Private Key Solana</label>
+      <input type="email" placeholder="Key" class="form-control py-3" id="exampleInputEmail1" aria-describedby="emailHelp">
+    </div>
+    <div class="mb-2 col-8 ">
+      <label for="exampleInputEmail1" class="form-label">Webhook</label>
+      <input type="email" placeholder="Webhook" class="form-control py-3" id="exampleInputEmail1" aria-describedby="emailHelp">
+    </div>
+  <div class="text-center mt-3 mx-auto pt-2">
+    <button type="button" class="btn btn-primary primarybtn   ">Save</button>
+  </div>
+</form>
+<div class="">
+  <img style="width: 15rem; margin-top: 16rem" class="img-fluid ps-4" src="./Assets/Thunder-move-small.svg" alt="">
+</div>
+</div>  
+        </div> -->
+      </div>
+
+      <!-- Ethereum -->
+      <div id="pop">
+        <div
+          id="nav"
+          class="px-3 d-flex justify-content-evenly align-items-baseline py-3"
+        >
+          <div class="d-flex px-3">
+            <a class="d-block active rarityshadow" href="">ETH</a>
+            <a class="d-block" href="">SOL</a>
+            <a class="d-block" href=""
+              ><svg
+                width="40"
+                height="40"
+                viewBox="0 0 50 50"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  opacity="0.3"
+                  d="M38.7969 20.3125H39.0625C41.6513 20.3125 43.75 22.4112 43.75 25C43.75 27.5888 41.6513 29.6875 39.0625 29.6875L38.9281 29.6875C38.5233 29.6891 38.1581 29.9309 37.9987 30.303C37.8243 30.6982 37.9048 31.1418 38.183 31.4264L38.2761 31.5195C39.1563 32.3988 39.6509 33.5918 39.6509 34.8359C39.6509 36.08 39.1563 37.2731 38.2773 38.1511C37.3981 39.0313 36.205 39.5259 34.9609 39.5259C33.7168 39.5259 32.5238 39.0313 31.6451 38.1517L31.5636 38.0701C31.2668 37.7798 30.8232 37.6993 30.428 37.8737C30.0559 38.0331 29.8141 38.3983 29.8125 38.7969V39.0625C29.8125 41.6513 27.7138 43.75 25.125 43.75C22.5362 43.75 20.4375 41.6513 20.4375 39.0625C20.4282 38.5415 20.1646 38.1729 19.6816 37.992C19.3018 37.8243 18.8582 37.9048 18.5736 38.183L18.4805 38.2761C17.6012 39.1563 16.4082 39.6509 15.1641 39.6509C13.92 39.6509 12.7269 39.1563 11.8489 38.2773C10.9687 37.3981 10.4741 36.205 10.4741 34.9609C10.4741 33.7168 10.9687 32.5238 11.8483 31.6451L11.9299 31.5636C12.2202 31.2668 12.3007 30.8232 12.1263 30.428C11.9669 30.0559 11.6017 29.8141 11.2031 29.8125H10.9375C8.34867 29.8125 6.25 27.7138 6.25 25.125C6.25 22.5362 8.34867 20.4375 10.9375 20.4375C11.4585 20.4282 11.8271 20.1646 12.008 19.6816C12.1757 19.3018 12.0952 18.8582 11.817 18.5736L11.7239 18.4805C10.8437 17.6012 10.3491 16.4082 10.3491 15.1641C10.3491 13.92 10.8437 12.7269 11.7227 11.8489C12.6019 10.9687 13.795 10.4741 15.0391 10.4741C16.2832 10.4741 17.4762 10.9687 18.3549 11.8483L18.4364 11.9299C18.7332 12.2202 19.1768 12.3007 19.5566 12.133L19.7809 12.0857C20.105 11.9102 20.311 11.5709 20.3125 11.2031V10.9375C20.3125 8.34867 22.4112 6.25 25 6.25C27.5888 6.25 29.6875 8.34867 29.6875 10.9375L29.6875 11.0719C29.6891 11.4767 29.9309 11.8419 30.3184 12.008C30.6982 12.1757 31.1418 12.0952 31.4264 11.817L31.5195 11.7239C32.3988 10.8437 33.5918 10.3491 34.8359 10.3491C36.08 10.3491 37.2731 10.8437 38.1511 11.7227C39.0313 12.6019 39.5259 13.795 39.5259 15.0391C39.5259 16.2832 39.0313 17.4762 38.1517 18.3549L38.0701 18.4364C37.7798 18.7332 37.6993 19.1768 37.867 19.5566L37.9143 19.7809C38.0898 20.105 38.4291 20.311 38.7969 20.3125Z"
+                  fill="#31343B"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M25 31.25C28.4518 31.25 31.25 28.4518 31.25 25C31.25 21.5482 28.4518 18.75 25 18.75C21.5482 18.75 18.75 21.5482 18.75 25C18.75 28.4518 21.5482 31.25 25 31.25Z"
+                  fill="#31343B"
+                /></svg
+            ></a>
+            <a class="d-block" href=""
+              ><svg
+                width="40"
+                height="40"
+                viewBox="0 0 50 50"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M31.25 43.3561C31.25 44.0981 32.2124 44.3895 32.624 43.7721L47.1393 21.9992C47.4716 21.5008 47.1143 20.8332 46.5153 20.8332H35.4167V6.64358C35.4167 5.90153 34.4542 5.61013 34.0426 6.22756L19.5273 28.0005C19.1951 28.4989 19.5524 29.1665 20.1514 29.1665H31.25V43.3561Z"
+                  fill="#31343B"
+                />
+                <path
+                  opacity="0.3"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M6.25065 11.9165C6.25065 11.0881 6.92222 10.4165 7.75065 10.4165H21.4173C22.2457 10.4165 22.9173 11.0881 22.9173 11.9165V15.1665C22.9173 15.9949 22.2457 16.6665 21.4173 16.6665H7.75065C6.92222 16.6665 6.25065 15.9949 6.25065 15.1665V11.9165ZM6.25065 36.9165C6.25065 36.0881 6.92222 35.4165 7.75065 35.4165H21.4173C22.2457 35.4165 22.9173 36.0881 22.9173 36.9165V40.1665C22.9173 40.9949 22.2457 41.6665 21.4173 41.6665H7.75065C6.92222 41.6665 6.25065 40.9949 6.25065 40.1665V36.9165ZM3.58398 22.9165C2.75556 22.9165 2.08398 23.5881 2.08398 24.4165V27.6665C2.08398 28.4949 2.75556 29.1665 3.58398 29.1665H15.1673C15.9957 29.1665 16.6673 28.4949 16.6673 27.6665V24.4165C16.6673 23.5881 15.9957 22.9165 15.1673 22.9165H3.58398Z"
+                  fill="#31343B"
+                /></svg
+            ></a>
+          </div>
+          <div>
+            <a class="d-block" href=""
+              ><svg
+                width="40"
+                height="40"
+                viewBox="0 0 50 50"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  opacity="0.3"
+                  d="M29.1683 14.5835C29.1683 15.7341 30.1007 16.6668 31.2508 16.6668C32.4009 16.6668 33.3332 15.7341 33.3332 14.5835V12.5002C33.3332 7.89779 29.6039 4.16682 25.0035 4.16682H12.5107C7.91033 4.16682 4.18099 7.89779 4.18099 12.5002L4.18099 37.5002C4.18099 42.1025 7.91033 45.8335 12.5107 45.8335H25.0179C29.6183 45.8335 33.3477 42.1025 33.3477 37.5002V35.4168C33.3477 34.2662 32.4153 33.3335 31.2652 33.3335C30.1151 33.3335 29.1828 34.2662 29.1828 35.4168V37.5002C29.1828 39.8013 27.3181 41.6668 25.0179 41.6668H12.5107C10.2105 41.6668 8.34585 39.8013 8.34585 37.5002L8.34585 12.5002C8.34585 10.199 10.2105 8.33349 12.5107 8.33349H25.0035C27.3037 8.33349 29.1683 10.199 29.1683 12.5002V14.5835Z"
+                  fill="#757B8C"
+                />
+                <rect
+                  opacity="0.3"
+                  x="41.666"
+                  y="22.9165"
+                  width="4.16667"
+                  height="25"
+                  rx="1"
+                  transform="rotate(90 41.666 22.9165)"
+                  fill="#757B8C"
+                />
+                <path
+                  d="M36.0262 20.2233C35.2126 19.4097 35.2126 18.0906 36.0262 17.277C36.8398 16.4634 38.1589 16.4634 38.9725 17.277L45.2225 23.527C46.0361 24.3406 46.0361 25.6597 45.2225 26.4733L38.9725 32.7233C38.1589 33.5369 36.8398 33.5369 36.0262 32.7233C35.2126 31.9097 35.2126 30.5906 36.0262 29.777L40.8031 25.0002L36.0262 20.2233Z"
+                  fill="#757B8C"
+                /></svg
+            ></a>
+          </div>
+        </div>
+
+        <!-- Ethereum-Minter -->
+        <div id="Ethereum-Minter px-3 mx-auto ">
+          <form class="row justify-content-center mx-auto">
+            <h1 class="col-8 mt-4 mb-3">Ethereum Minter</h1>
+            <div class="mb-2 col-8">
+              <label for="exampleInputEmail1" class="form-label"
+                >Contact Address</label
+              >
+              <input
+                type="email"
+                placeholder="Address"
+                class="form-control py-3"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="mb-2 col-8">
+              <label for="exampleInputEmail1" class="form-label"
+                >Trasaction Data</label
+              >
+              <input
+                type="email"
+                placeholder="Data"
+                class="form-control py-3"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="mb-2 col-8">
+              <label for="exampleInputEmail1" class="form-label"
+                >Payable Ethereum</label
+              >
+              <input
+                type="email"
+                placeholder="Amount"
+                class="form-control py-3"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="text-center mt-3 mx-auto pt-2">
+              <button type="button" class="btn btn-primary primarybtn">
+                Mint
+              </button>
+            </div>
+          </form>
+          <div class="">
+            <img
+              style="width: 15rem; margin-top: 20rem"
+              class="img-fluid ps-4"
+              src="./Assets/Thunder-move-small.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Solana -->
+      <div id="pop">
+        <div
+          id="nav"
+          class="px-3 d-flex justify-content-evenly align-items-baseline py-3"
+        >
+          <div class="d-flex px-3">
+            <a class="d-block active rarityshadow" href="">ETH</a>
+            <a class="d-block" href="">SOL</a>
+            <a class="d-block" href=""
+              ><svg
+                width="40"
+                height="40"
+                viewBox="0 0 50 50"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  opacity="0.3"
+                  d="M38.7969 20.3125H39.0625C41.6513 20.3125 43.75 22.4112 43.75 25C43.75 27.5888 41.6513 29.6875 39.0625 29.6875L38.9281 29.6875C38.5233 29.6891 38.1581 29.9309 37.9987 30.303C37.8243 30.6982 37.9048 31.1418 38.183 31.4264L38.2761 31.5195C39.1563 32.3988 39.6509 33.5918 39.6509 34.8359C39.6509 36.08 39.1563 37.2731 38.2773 38.1511C37.3981 39.0313 36.205 39.5259 34.9609 39.5259C33.7168 39.5259 32.5238 39.0313 31.6451 38.1517L31.5636 38.0701C31.2668 37.7798 30.8232 37.6993 30.428 37.8737C30.0559 38.0331 29.8141 38.3983 29.8125 38.7969V39.0625C29.8125 41.6513 27.7138 43.75 25.125 43.75C22.5362 43.75 20.4375 41.6513 20.4375 39.0625C20.4282 38.5415 20.1646 38.1729 19.6816 37.992C19.3018 37.8243 18.8582 37.9048 18.5736 38.183L18.4805 38.2761C17.6012 39.1563 16.4082 39.6509 15.1641 39.6509C13.92 39.6509 12.7269 39.1563 11.8489 38.2773C10.9687 37.3981 10.4741 36.205 10.4741 34.9609C10.4741 33.7168 10.9687 32.5238 11.8483 31.6451L11.9299 31.5636C12.2202 31.2668 12.3007 30.8232 12.1263 30.428C11.9669 30.0559 11.6017 29.8141 11.2031 29.8125H10.9375C8.34867 29.8125 6.25 27.7138 6.25 25.125C6.25 22.5362 8.34867 20.4375 10.9375 20.4375C11.4585 20.4282 11.8271 20.1646 12.008 19.6816C12.1757 19.3018 12.0952 18.8582 11.817 18.5736L11.7239 18.4805C10.8437 17.6012 10.3491 16.4082 10.3491 15.1641C10.3491 13.92 10.8437 12.7269 11.7227 11.8489C12.6019 10.9687 13.795 10.4741 15.0391 10.4741C16.2832 10.4741 17.4762 10.9687 18.3549 11.8483L18.4364 11.9299C18.7332 12.2202 19.1768 12.3007 19.5566 12.133L19.7809 12.0857C20.105 11.9102 20.311 11.5709 20.3125 11.2031V10.9375C20.3125 8.34867 22.4112 6.25 25 6.25C27.5888 6.25 29.6875 8.34867 29.6875 10.9375L29.6875 11.0719C29.6891 11.4767 29.9309 11.8419 30.3184 12.008C30.6982 12.1757 31.1418 12.0952 31.4264 11.817L31.5195 11.7239C32.3988 10.8437 33.5918 10.3491 34.8359 10.3491C36.08 10.3491 37.2731 10.8437 38.1511 11.7227C39.0313 12.6019 39.5259 13.795 39.5259 15.0391C39.5259 16.2832 39.0313 17.4762 38.1517 18.3549L38.0701 18.4364C37.7798 18.7332 37.6993 19.1768 37.867 19.5566L37.9143 19.7809C38.0898 20.105 38.4291 20.311 38.7969 20.3125Z"
+                  fill="#31343B"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M25 31.25C28.4518 31.25 31.25 28.4518 31.25 25C31.25 21.5482 28.4518 18.75 25 18.75C21.5482 18.75 18.75 21.5482 18.75 25C18.75 28.4518 21.5482 31.25 25 31.25Z"
+                  fill="#31343B"
+                /></svg
+            ></a>
+            <a class="d-block" href=""
+              ><svg
+                width="40"
+                height="40"
+                viewBox="0 0 50 50"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M31.25 43.3561C31.25 44.0981 32.2124 44.3895 32.624 43.7721L47.1393 21.9992C47.4716 21.5008 47.1143 20.8332 46.5153 20.8332H35.4167V6.64358C35.4167 5.90153 34.4542 5.61013 34.0426 6.22756L19.5273 28.0005C19.1951 28.4989 19.5524 29.1665 20.1514 29.1665H31.25V43.3561Z"
+                  fill="#31343B"
+                />
+                <path
+                  opacity="0.3"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M6.25065 11.9165C6.25065 11.0881 6.92222 10.4165 7.75065 10.4165H21.4173C22.2457 10.4165 22.9173 11.0881 22.9173 11.9165V15.1665C22.9173 15.9949 22.2457 16.6665 21.4173 16.6665H7.75065C6.92222 16.6665 6.25065 15.9949 6.25065 15.1665V11.9165ZM6.25065 36.9165C6.25065 36.0881 6.92222 35.4165 7.75065 35.4165H21.4173C22.2457 35.4165 22.9173 36.0881 22.9173 36.9165V40.1665C22.9173 40.9949 22.2457 41.6665 21.4173 41.6665H7.75065C6.92222 41.6665 6.25065 40.9949 6.25065 40.1665V36.9165ZM3.58398 22.9165C2.75556 22.9165 2.08398 23.5881 2.08398 24.4165V27.6665C2.08398 28.4949 2.75556 29.1665 3.58398 29.1665H15.1673C15.9957 29.1665 16.6673 28.4949 16.6673 27.6665V24.4165C16.6673 23.5881 15.9957 22.9165 15.1673 22.9165H3.58398Z"
+                  fill="#31343B"
+                /></svg
+            ></a>
+          </div>
+          <div>
+            <a class="d-block" href=""
+              ><svg
+                width="40"
+                height="40"
+                viewBox="0 0 50 50"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  opacity="0.3"
+                  d="M29.1683 14.5835C29.1683 15.7341 30.1007 16.6668 31.2508 16.6668C32.4009 16.6668 33.3332 15.7341 33.3332 14.5835V12.5002C33.3332 7.89779 29.6039 4.16682 25.0035 4.16682H12.5107C7.91033 4.16682 4.18099 7.89779 4.18099 12.5002L4.18099 37.5002C4.18099 42.1025 7.91033 45.8335 12.5107 45.8335H25.0179C29.6183 45.8335 33.3477 42.1025 33.3477 37.5002V35.4168C33.3477 34.2662 32.4153 33.3335 31.2652 33.3335C30.1151 33.3335 29.1828 34.2662 29.1828 35.4168V37.5002C29.1828 39.8013 27.3181 41.6668 25.0179 41.6668H12.5107C10.2105 41.6668 8.34585 39.8013 8.34585 37.5002L8.34585 12.5002C8.34585 10.199 10.2105 8.33349 12.5107 8.33349H25.0035C27.3037 8.33349 29.1683 10.199 29.1683 12.5002V14.5835Z"
+                  fill="#757B8C"
+                />
+                <rect
+                  opacity="0.3"
+                  x="41.666"
+                  y="22.9165"
+                  width="4.16667"
+                  height="25"
+                  rx="1"
+                  transform="rotate(90 41.666 22.9165)"
+                  fill="#757B8C"
+                />
+                <path
+                  d="M36.0262 20.2233C35.2126 19.4097 35.2126 18.0906 36.0262 17.277C36.8398 16.4634 38.1589 16.4634 38.9725 17.277L45.2225 23.527C46.0361 24.3406 46.0361 25.6597 45.2225 26.4733L38.9725 32.7233C38.1589 33.5369 36.8398 33.5369 36.0262 32.7233C35.2126 31.9097 35.2126 30.5906 36.0262 29.777L40.8031 25.0002L36.0262 20.2233Z"
+                  fill="#757B8C"
+                /></svg
+            ></a>
+          </div>
+        </div>
+
+        <!-- solana-Minter -->
+        <div id="Ethereum-Minter px-3 mx-auto ">
+          <form class="row justify-content-center mx-auto">
+            <h1 class="col-8 mt-4 mb-3">Solana Minter</h1>
+            <div class="mb-2 col-8">
+              <label for="exampleInputEmail1" class="form-label"
+                >Candy Machine ID</label
+              >
+              <input
+                type="email"
+                placeholder="ID"
+                class="form-control py-3"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="mb-2 col-8">
+              <label for="exampleInputEmail1" class="form-label"
+                >Pass Phrase</label
+              >
+              <input
+                type="email"
+                placeholder="Phrase"
+                class="form-control py-3"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="mb-2 col-8">
+              <label for="exampleInputEmail1" class="form-label"
+                >Payable Solana</label
+              >
+              <input
+                type="email"
+                placeholder="Amount"
+                class="form-control py-3"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="text-center mt-3 mx-auto pt-2">
+              <button type="button" class="btn btn-primary primarybtn">
+                Mint
+              </button>
+            </div>
+          </form>
+          <div class="">
+            <img
+              style="width: 15rem; margin-top: 20rem"
+              class="img-fluid ps-4"
+              src="./Assets/Thunder-move-small.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Gas Presets -->
+      <div id="pop">
+        <div
+          id="nav"
+          class="px-3 d-flex justify-content-evenly align-items-baseline py-3"
+        >
+          <div class="d-flex px-3">
+            <a class="d-block active rarityshadow" href="">ETH</a>
+            <a class="d-block" href="">SOL</a>
+            <a class="d-block" href=""
+              ><svg
+                width="40"
+                height="40"
+                viewBox="0 0 50 50"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  opacity="0.3"
+                  d="M38.7969 20.3125H39.0625C41.6513 20.3125 43.75 22.4112 43.75 25C43.75 27.5888 41.6513 29.6875 39.0625 29.6875L38.9281 29.6875C38.5233 29.6891 38.1581 29.9309 37.9987 30.303C37.8243 30.6982 37.9048 31.1418 38.183 31.4264L38.2761 31.5195C39.1563 32.3988 39.6509 33.5918 39.6509 34.8359C39.6509 36.08 39.1563 37.2731 38.2773 38.1511C37.3981 39.0313 36.205 39.5259 34.9609 39.5259C33.7168 39.5259 32.5238 39.0313 31.6451 38.1517L31.5636 38.0701C31.2668 37.7798 30.8232 37.6993 30.428 37.8737C30.0559 38.0331 29.8141 38.3983 29.8125 38.7969V39.0625C29.8125 41.6513 27.7138 43.75 25.125 43.75C22.5362 43.75 20.4375 41.6513 20.4375 39.0625C20.4282 38.5415 20.1646 38.1729 19.6816 37.992C19.3018 37.8243 18.8582 37.9048 18.5736 38.183L18.4805 38.2761C17.6012 39.1563 16.4082 39.6509 15.1641 39.6509C13.92 39.6509 12.7269 39.1563 11.8489 38.2773C10.9687 37.3981 10.4741 36.205 10.4741 34.9609C10.4741 33.7168 10.9687 32.5238 11.8483 31.6451L11.9299 31.5636C12.2202 31.2668 12.3007 30.8232 12.1263 30.428C11.9669 30.0559 11.6017 29.8141 11.2031 29.8125H10.9375C8.34867 29.8125 6.25 27.7138 6.25 25.125C6.25 22.5362 8.34867 20.4375 10.9375 20.4375C11.4585 20.4282 11.8271 20.1646 12.008 19.6816C12.1757 19.3018 12.0952 18.8582 11.817 18.5736L11.7239 18.4805C10.8437 17.6012 10.3491 16.4082 10.3491 15.1641C10.3491 13.92 10.8437 12.7269 11.7227 11.8489C12.6019 10.9687 13.795 10.4741 15.0391 10.4741C16.2832 10.4741 17.4762 10.9687 18.3549 11.8483L18.4364 11.9299C18.7332 12.2202 19.1768 12.3007 19.5566 12.133L19.7809 12.0857C20.105 11.9102 20.311 11.5709 20.3125 11.2031V10.9375C20.3125 8.34867 22.4112 6.25 25 6.25C27.5888 6.25 29.6875 8.34867 29.6875 10.9375L29.6875 11.0719C29.6891 11.4767 29.9309 11.8419 30.3184 12.008C30.6982 12.1757 31.1418 12.0952 31.4264 11.817L31.5195 11.7239C32.3988 10.8437 33.5918 10.3491 34.8359 10.3491C36.08 10.3491 37.2731 10.8437 38.1511 11.7227C39.0313 12.6019 39.5259 13.795 39.5259 15.0391C39.5259 16.2832 39.0313 17.4762 38.1517 18.3549L38.0701 18.4364C37.7798 18.7332 37.6993 19.1768 37.867 19.5566L37.9143 19.7809C38.0898 20.105 38.4291 20.311 38.7969 20.3125Z"
+                  fill="#31343B"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M25 31.25C28.4518 31.25 31.25 28.4518 31.25 25C31.25 21.5482 28.4518 18.75 25 18.75C21.5482 18.75 18.75 21.5482 18.75 25C18.75 28.4518 21.5482 31.25 25 31.25Z"
+                  fill="#31343B"
+                /></svg
+            ></a>
+            <a class="d-block" href=""
+              ><svg
+                width="40"
+                height="40"
+                viewBox="0 0 50 50"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M31.25 43.3561C31.25 44.0981 32.2124 44.3895 32.624 43.7721L47.1393 21.9992C47.4716 21.5008 47.1143 20.8332 46.5153 20.8332H35.4167V6.64358C35.4167 5.90153 34.4542 5.61013 34.0426 6.22756L19.5273 28.0005C19.1951 28.4989 19.5524 29.1665 20.1514 29.1665H31.25V43.3561Z"
+                  fill="#31343B"
+                />
+                <path
+                  opacity="0.3"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M6.25065 11.9165C6.25065 11.0881 6.92222 10.4165 7.75065 10.4165H21.4173C22.2457 10.4165 22.9173 11.0881 22.9173 11.9165V15.1665C22.9173 15.9949 22.2457 16.6665 21.4173 16.6665H7.75065C6.92222 16.6665 6.25065 15.9949 6.25065 15.1665V11.9165ZM6.25065 36.9165C6.25065 36.0881 6.92222 35.4165 7.75065 35.4165H21.4173C22.2457 35.4165 22.9173 36.0881 22.9173 36.9165V40.1665C22.9173 40.9949 22.2457 41.6665 21.4173 41.6665H7.75065C6.92222 41.6665 6.25065 40.9949 6.25065 40.1665V36.9165ZM3.58398 22.9165C2.75556 22.9165 2.08398 23.5881 2.08398 24.4165V27.6665C2.08398 28.4949 2.75556 29.1665 3.58398 29.1665H15.1673C15.9957 29.1665 16.6673 28.4949 16.6673 27.6665V24.4165C16.6673 23.5881 15.9957 22.9165 15.1673 22.9165H3.58398Z"
+                  fill="#31343B"
+                /></svg
+            ></a>
+          </div>
+          <div>
+            <a class="d-block" href=""
+              ><svg
+                width="40"
+                height="40"
+                viewBox="0 0 50 50"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  opacity="0.3"
+                  d="M29.1683 14.5835C29.1683 15.7341 30.1007 16.6668 31.2508 16.6668C32.4009 16.6668 33.3332 15.7341 33.3332 14.5835V12.5002C33.3332 7.89779 29.6039 4.16682 25.0035 4.16682H12.5107C7.91033 4.16682 4.18099 7.89779 4.18099 12.5002L4.18099 37.5002C4.18099 42.1025 7.91033 45.8335 12.5107 45.8335H25.0179C29.6183 45.8335 33.3477 42.1025 33.3477 37.5002V35.4168C33.3477 34.2662 32.4153 33.3335 31.2652 33.3335C30.1151 33.3335 29.1828 34.2662 29.1828 35.4168V37.5002C29.1828 39.8013 27.3181 41.6668 25.0179 41.6668H12.5107C10.2105 41.6668 8.34585 39.8013 8.34585 37.5002L8.34585 12.5002C8.34585 10.199 10.2105 8.33349 12.5107 8.33349H25.0035C27.3037 8.33349 29.1683 10.199 29.1683 12.5002V14.5835Z"
+                  fill="#757B8C"
+                />
+                <rect
+                  opacity="0.3"
+                  x="41.666"
+                  y="22.9165"
+                  width="4.16667"
+                  height="25"
+                  rx="1"
+                  transform="rotate(90 41.666 22.9165)"
+                  fill="#757B8C"
+                />
+                <path
+                  d="M36.0262 20.2233C35.2126 19.4097 35.2126 18.0906 36.0262 17.277C36.8398 16.4634 38.1589 16.4634 38.9725 17.277L45.2225 23.527C46.0361 24.3406 46.0361 25.6597 45.2225 26.4733L38.9725 32.7233C38.1589 33.5369 36.8398 33.5369 36.0262 32.7233C35.2126 31.9097 35.2126 30.5906 36.0262 29.777L40.8031 25.0002L36.0262 20.2233Z"
+                  fill="#757B8C"
+                /></svg
+            ></a>
+          </div>
+        </div>
+
+        <!-- Gas Presets -->
+        <div id="Ethereum-Minter px-3 mx-auto ">
+          <form class="row justify-content-center mx-auto">
+            <h1 class="col-8 mt-4 mb-3">Gas Presets</h1>
+            <div class="mb-2 col-8">
+              <label for="exampleInputEmail1" class="form-label"
+                >Gas Price</label
+              >
+              <input
+                type="email"
+                placeholder="Price"
+                class="form-control py-3"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="text-center mt-3 mx-auto pt-2">
+              <button type="button" class="btn btn-primary primarybtn">
+                Save
+              </button>
+            </div>
+          </form>
+          <div class="">
+            <img
+              style="width: 15rem; margin-top: 35rem"
+              class="img-fluid ps-4"
+              src="./Assets/Thunder-move-small.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Setting -->
+      <div id="pop">
+        <div
+          id="nav"
+          class="px-3 d-flex justify-content-evenly align-items-baseline py-3"
+        >
+          <div class="d-flex px-3">
+            <a class="d-block active rarityshadow" href="">ETH</a>
+            <a class="d-block" href="">SOL</a>
+            <a class="d-block" href=""
+              ><svg
+                width="40"
+                height="40"
+                viewBox="0 0 50 50"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  opacity="0.3"
+                  d="M38.7969 20.3125H39.0625C41.6513 20.3125 43.75 22.4112 43.75 25C43.75 27.5888 41.6513 29.6875 39.0625 29.6875L38.9281 29.6875C38.5233 29.6891 38.1581 29.9309 37.9987 30.303C37.8243 30.6982 37.9048 31.1418 38.183 31.4264L38.2761 31.5195C39.1563 32.3988 39.6509 33.5918 39.6509 34.8359C39.6509 36.08 39.1563 37.2731 38.2773 38.1511C37.3981 39.0313 36.205 39.5259 34.9609 39.5259C33.7168 39.5259 32.5238 39.0313 31.6451 38.1517L31.5636 38.0701C31.2668 37.7798 30.8232 37.6993 30.428 37.8737C30.0559 38.0331 29.8141 38.3983 29.8125 38.7969V39.0625C29.8125 41.6513 27.7138 43.75 25.125 43.75C22.5362 43.75 20.4375 41.6513 20.4375 39.0625C20.4282 38.5415 20.1646 38.1729 19.6816 37.992C19.3018 37.8243 18.8582 37.9048 18.5736 38.183L18.4805 38.2761C17.6012 39.1563 16.4082 39.6509 15.1641 39.6509C13.92 39.6509 12.7269 39.1563 11.8489 38.2773C10.9687 37.3981 10.4741 36.205 10.4741 34.9609C10.4741 33.7168 10.9687 32.5238 11.8483 31.6451L11.9299 31.5636C12.2202 31.2668 12.3007 30.8232 12.1263 30.428C11.9669 30.0559 11.6017 29.8141 11.2031 29.8125H10.9375C8.34867 29.8125 6.25 27.7138 6.25 25.125C6.25 22.5362 8.34867 20.4375 10.9375 20.4375C11.4585 20.4282 11.8271 20.1646 12.008 19.6816C12.1757 19.3018 12.0952 18.8582 11.817 18.5736L11.7239 18.4805C10.8437 17.6012 10.3491 16.4082 10.3491 15.1641C10.3491 13.92 10.8437 12.7269 11.7227 11.8489C12.6019 10.9687 13.795 10.4741 15.0391 10.4741C16.2832 10.4741 17.4762 10.9687 18.3549 11.8483L18.4364 11.9299C18.7332 12.2202 19.1768 12.3007 19.5566 12.133L19.7809 12.0857C20.105 11.9102 20.311 11.5709 20.3125 11.2031V10.9375C20.3125 8.34867 22.4112 6.25 25 6.25C27.5888 6.25 29.6875 8.34867 29.6875 10.9375L29.6875 11.0719C29.6891 11.4767 29.9309 11.8419 30.3184 12.008C30.6982 12.1757 31.1418 12.0952 31.4264 11.817L31.5195 11.7239C32.3988 10.8437 33.5918 10.3491 34.8359 10.3491C36.08 10.3491 37.2731 10.8437 38.1511 11.7227C39.0313 12.6019 39.5259 13.795 39.5259 15.0391C39.5259 16.2832 39.0313 17.4762 38.1517 18.3549L38.0701 18.4364C37.7798 18.7332 37.6993 19.1768 37.867 19.5566L37.9143 19.7809C38.0898 20.105 38.4291 20.311 38.7969 20.3125Z"
+                  fill="#31343B"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M25 31.25C28.4518 31.25 31.25 28.4518 31.25 25C31.25 21.5482 28.4518 18.75 25 18.75C21.5482 18.75 18.75 21.5482 18.75 25C18.75 28.4518 21.5482 31.25 25 31.25Z"
+                  fill="#31343B"
+                /></svg
+            ></a>
+            <a class="d-block" href=""
+              ><svg
+                width="40"
+                height="40"
+                viewBox="0 0 50 50"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M31.25 43.3561C31.25 44.0981 32.2124 44.3895 32.624 43.7721L47.1393 21.9992C47.4716 21.5008 47.1143 20.8332 46.5153 20.8332H35.4167V6.64358C35.4167 5.90153 34.4542 5.61013 34.0426 6.22756L19.5273 28.0005C19.1951 28.4989 19.5524 29.1665 20.1514 29.1665H31.25V43.3561Z"
+                  fill="#31343B"
+                />
+                <path
+                  opacity="0.3"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M6.25065 11.9165C6.25065 11.0881 6.92222 10.4165 7.75065 10.4165H21.4173C22.2457 10.4165 22.9173 11.0881 22.9173 11.9165V15.1665C22.9173 15.9949 22.2457 16.6665 21.4173 16.6665H7.75065C6.92222 16.6665 6.25065 15.9949 6.25065 15.1665V11.9165ZM6.25065 36.9165C6.25065 36.0881 6.92222 35.4165 7.75065 35.4165H21.4173C22.2457 35.4165 22.9173 36.0881 22.9173 36.9165V40.1665C22.9173 40.9949 22.2457 41.6665 21.4173 41.6665H7.75065C6.92222 41.6665 6.25065 40.9949 6.25065 40.1665V36.9165ZM3.58398 22.9165C2.75556 22.9165 2.08398 23.5881 2.08398 24.4165V27.6665C2.08398 28.4949 2.75556 29.1665 3.58398 29.1665H15.1673C15.9957 29.1665 16.6673 28.4949 16.6673 27.6665V24.4165C16.6673 23.5881 15.9957 22.9165 15.1673 22.9165H3.58398Z"
+                  fill="#31343B"
+                /></svg
+            ></a>
+          </div>
+          <div>
+            <a class="d-block" href=""
+              ><svg
+                width="40"
+                height="40"
+                viewBox="0 0 50 50"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  opacity="0.3"
+                  d="M29.1683 14.5835C29.1683 15.7341 30.1007 16.6668 31.2508 16.6668C32.4009 16.6668 33.3332 15.7341 33.3332 14.5835V12.5002C33.3332 7.89779 29.6039 4.16682 25.0035 4.16682H12.5107C7.91033 4.16682 4.18099 7.89779 4.18099 12.5002L4.18099 37.5002C4.18099 42.1025 7.91033 45.8335 12.5107 45.8335H25.0179C29.6183 45.8335 33.3477 42.1025 33.3477 37.5002V35.4168C33.3477 34.2662 32.4153 33.3335 31.2652 33.3335C30.1151 33.3335 29.1828 34.2662 29.1828 35.4168V37.5002C29.1828 39.8013 27.3181 41.6668 25.0179 41.6668H12.5107C10.2105 41.6668 8.34585 39.8013 8.34585 37.5002L8.34585 12.5002C8.34585 10.199 10.2105 8.33349 12.5107 8.33349H25.0035C27.3037 8.33349 29.1683 10.199 29.1683 12.5002V14.5835Z"
+                  fill="#757B8C"
+                />
+                <rect
+                  opacity="0.3"
+                  x="41.666"
+                  y="22.9165"
+                  width="4.16667"
+                  height="25"
+                  rx="1"
+                  transform="rotate(90 41.666 22.9165)"
+                  fill="#757B8C"
+                />
+                <path
+                  d="M36.0262 20.2233C35.2126 19.4097 35.2126 18.0906 36.0262 17.277C36.8398 16.4634 38.1589 16.4634 38.9725 17.277L45.2225 23.527C46.0361 24.3406 46.0361 25.6597 45.2225 26.4733L38.9725 32.7233C38.1589 33.5369 36.8398 33.5369 36.0262 32.7233C35.2126 31.9097 35.2126 30.5906 36.0262 29.777L40.8031 25.0002L36.0262 20.2233Z"
+                  fill="#757B8C"
+                /></svg
+            ></a>
+          </div>
+        </div>
+
+        <!-- setting -->
+        <div id="Ethereum-Minter px-3 mx-auto ">
+          <form class="row justify-content-center mx-auto">
+            <h1 class="col-8 mt-4 mb-3">Settings</h1>
+            <div class="mb-2 col-8">
+              <label for="exampleInputEmail1" class="form-label"
+                >Private Key Ethereum</label
+              >
+              <input
+                type="email"
+                placeholder="Key"
+                class="form-control py-3"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="mb-2 col-8">
+              <label for="exampleInputEmail1" class="form-label"
+                >Private Key Solana</label
+              >
+              <input
+                type="email"
+                placeholder="Key"
+                class="form-control py-3"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="mb-2 col-8">
+              <label for="exampleInputEmail1" class="form-label">Webhook</label>
+              <input
+                type="email"
+                placeholder="Webhook"
+                class="form-control py-3"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="text-center mt-3 mx-auto pt-2">
+              <button type="button" class="btn btn-primary primarybtn">
+                Save
+              </button>
+            </div>
+          </form>
+          <div class="">
+            <img
+              style="width: 15rem; margin-top: 20rem"
+              class="img-fluid ps-4"
+              src="./Assets/Thunder-move-small.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
